@@ -1,0 +1,29 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #0077b5;
+  padding: 10px;
+  color: white;
+}
+
+.app-title {
+  flex: 1;
+  font-size: 24px;
+}
+
+.nav-link {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.welcome {
+  margin-left: auto;
+  font-weight: bold;
+}
+

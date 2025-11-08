@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  @apply bg-gray-100 font-sans;
+}
+
+textarea:focus, input:focus {
+  @apply outline-none ring-2 ring-blue-500;
+}
+
+
